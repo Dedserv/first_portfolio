@@ -2,8 +2,8 @@
   font-family: "Hind Siliguri";
   font-weight: 400;
   font-style: normal;
-  src: local(""), url(/font/hind-siliguri-regular.woff2) format("woff2"),
-    url(/font/hind-siliguri-regular.woff) format("woff");
+  src: local(""), url("./font/hind-siliguri-regular.woff2") format("woff2"),
+    url("./font/hind-siliguri-regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -11,15 +11,15 @@
   font-family: "Hind Siliguri";
   font-weight: 500;
   font-style: normal;
-  src: local(""), url(/font/hind-siliguri-500.woff2) format("woff2"),
-    url(/font/hind-siliguri-500.woff) format("woff");
+  src: local(""), url("./font/hind-siliguri-500.woff2") format("woff2"),
+    url("./font/hind-siliguri-500.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Hind Siliguri";
-  src: local(""), url(/font/hind-siliguri-700.woff2) format("woff2"),
-    url(/font/hind-siliguri-700.woff) format("woff");
+  src: local(""), url("./font/hind-siliguri-700.woff2") format("woff2"),
+    url("/font/hind-siliguri-700.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -94,7 +94,7 @@ a:visited {
   left: 0;
   width: 40px;
   height: 40px;
-  background-image: url("../img/logo.svg");
+  background-image: url("./img/logo.svg");
   background-color: #ff7235;
   border-radius: 50%;
 }
@@ -246,7 +246,7 @@ button {
 
 .admin-panel {
   background-color: #ff7235;
-  background-image: url("../img/Blob.svg");
+  background-image: url("./img/Blob.svg");
   background-size: 100%;
   padding-top: 87px;
   width: 100%;
@@ -320,7 +320,7 @@ button {
   right: 0;
   width: 24px;
   height: 24px;
-  background-image: url("../img/arrow.svg");
+  background-image: url("./img/arrow.svg");
   background-repeat: no-repeat;
 }
 
@@ -375,7 +375,7 @@ button {
 .product-card:nth-of-type(1)::after {
   position: absolute;
   content: "";
-  background-image: url("../img/icons/phonelink.svg");
+  background-image: url("./img/icons/phonelink.svg");
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -391,7 +391,7 @@ button {
 .product-card:nth-of-type(2)::after {
   position: absolute;
   content: "";
-  background-image: url("../img/icons/cloud.svg");
+  background-image: url("./img/icons/cloud.svg");
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -407,7 +407,7 @@ button {
 .product-card:nth-of-type(3)::after {
   position: absolute;
   content: "";
-  background-image: url("../img/icons/backpack.svg");
+  background-image: url("./img/icons/backpack.svg");
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
@@ -479,7 +479,7 @@ button {
 .plan-card:first-of-type::after {
   position: absolute;
   content: "";
-  background: url("../img/icons/card-travel.svg") no-repeat;
+  background: url("./img/icons/card-travel.svg") no-repeat;
   top: 40px;
   left: 40px;
   width: 24px;
@@ -489,7 +489,7 @@ button {
 .plan-card:nth-of-type(2)::after {
   position: absolute;
   content: "";
-  background: url("../img/icons/card-giftcard.svg") no-repeat;
+  background: url("./img/icons/card-giftcard.svg") no-repeat;
   top: 40px;
   left: 40px;
   width: 24px;
@@ -499,7 +499,7 @@ button {
 .plan-card:nth-of-type(3)::after {
   position: absolute;
   content: "";
-  background: url("../img/icons/card-membership.svg") no-repeat;
+  background: url("./img/icons/card-membership.svg") no-repeat;
   top: 40px;
   left: 40px;
   width: 24px;
@@ -540,7 +540,7 @@ button {
   left: 0;
   width: 24px;
   height: 24px;
-  background: url("../img/icons/check-list.svg") no-repeat;
+  background: url("./img/icons/check-list.svg") no-repeat;
 }
 
 .card-cost {
@@ -721,7 +721,7 @@ button {
 }
 
 .blob-back {
-  background: #ff7235 url("../img/Blob.svg") no-repeat;
+  background: #ff7235 url("./img/Blob.svg") no-repeat;
   background-size: 100%;
 }
 
